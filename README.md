@@ -51,12 +51,19 @@ Model Handling: Load and use pre-trained models (SVM, Random Forest, AdaBoost, X
 
 # Models
 The models used in this project include:
+
 Support Vector Machine (SVM)
+
 Random Forest
+
 AdaBoost
+
 XGBoost
+
 LightGBM
+
 Neural Network (Feedforward Neural Network, FNN)
+
 HistGradientBoostingClassifier
 
 # Setup

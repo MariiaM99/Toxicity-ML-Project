@@ -15,17 +15,29 @@ Data Composition: The dataset includes qualitative results (active/inactive) for
 Features: The models in this project were trained using molecular descriptors and embeddings derived from the ROMol of the compounds. The molecular descriptors include: molecular weight, lipophilicity, polar surface area, number of heavy atoms, number of heteroatoms, number of hydrogen bond donors, number of hydrogen bond acceptors and number of rotatable bonds. Additionally, mol2vec embeddings were used to capture the structural information of the molecules.
 
 Assays: The 12 toxicity endpoints (assays) included in the dataset are:
+
 SR-HSE: Stress response to heat shock element.
+
 NR-AR: Nuclear receptor signaling for the androgen receptor.
+
 SR-ARE: Stress response to antioxidant response element.
+
 NR-Aromatase: Nuclear receptor signaling for aromatase.
+
 NR-ER-LBD: Nuclear receptor signaling for the estrogen receptor ligand-binding domain.
+
 NR-AhR: Nuclear receptor signaling for the aryl hydrocarbon receptor.
+
 SR-MMP: Stress response to mitochondrial membrane potential.
+
 NR-ER: Nuclear receptor signaling for the estrogen receptor.
+
 NR-PPAR-gamma: Nuclear receptor signaling for the peroxisome proliferator-activated receptor gamma.
+
 SR-p53: Stress response related to the tumor protein p53.
+
 SR-ATAD5: Stress response related to the ATPase family AAA domain-containing protein 5.
+
 NR-AR-LBD: Nuclear receptor signaling for the androgen receptor ligand-binding domain.
 
 # Features
@@ -50,7 +62,9 @@ HistGradientBoostingClassifier
 # Setup
 Prerequisites
 Python 3.x
+
 Required Python libraries: rdkit, py3Dmol, mol2vec, gensim, xgboost, lightgbm, pandas, requests, numpy, matplotlib, seaborn, joblib, tensorflow, ipywidgets, scikit-learn, imbalanced-learn
+
 Mol2vec model: https://github.com/samoturk/mol2vec_notebooks/raw/master/Notebooks/model_300dim.pkl
 
 # Deployment

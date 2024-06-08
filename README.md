@@ -74,5 +74,18 @@ Required Python libraries: rdkit, py3Dmol, mol2vec, gensim, xgboost, lightgbm, p
 
 Mol2vec model: https://github.com/samoturk/mol2vec_notebooks/raw/master/Notebooks/model_300dim.pkl
 
+# Notebooks
+ToxicityPrediction(EDA).ipynb: In this notebook, the dataset will be explored to understand its structure and key features.
+
+ToxicityPrediction(Feature Engineering).ipynb: In this notebook features will be created to enhance the performance of machine learning models. This involves transforming raw data into meaningful representations that can better capture the underlying patterns and relationships. 
+
+ToxicityPrediction(Models and their Evaluation).ipynb: In this notebook various models will be created and evaluated.
+
+ToxicityPrediction(Examples).ipynb: In this notebook examples of toxicity prediction will be provided.
+
+df.csv: The DataFrame contains generated features.
+
+Model_1 - Model_9: Trained models for 12 assays.
+
 # Deployment
 http://85.143.223.223:8503/

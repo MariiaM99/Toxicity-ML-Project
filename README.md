@@ -30,8 +30,11 @@ NR-AR-LBD: Nuclear receptor signaling for the androgen receptor ligand-binding d
 
 # Features
 SMILES Preprocessing: Convert SMILES strings into feature vectors. SMILES (Simplified Molecular Input Line Entry System) allows to represent a chemical structure in a way that can be used by various computational programs. SMILES are strings consisted of characters that represent specific atoms, bonds, and connectivity in a molecule.
+
 Molecular Descriptors: Utilize various molecular descriptors (molecular weight, lipophilicity, polar surface area, number of heavy atoms, number of heteroatoms, number of hydrogen bond donors, number of hydrogen bond acceptors, number of rotatable bonds) as features. Molecular descriptors are calculated based on SMILES.
+
 Toxicity Prediction: Predict toxicity for multiple assays (SR-HSE, NR-AR, SR-ARE, NR-Aromatase, NR-ER-LBD, NR-AhR, SR-MMP, NR-ER, NR-PPAR-gamma, SR-p53, SR-ATAD5, NR-AR-LBD) using pre-trained models.
+
 Model Handling: Load and use pre-trained models (SVM, Random Forest, AdaBoost, XGBoost, LightGBM, Neural Network (FNN), HistGradientBoostingClassifier) for prediction.
 
 # Models

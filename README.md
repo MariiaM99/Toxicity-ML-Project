@@ -87,6 +87,3 @@ ToxicityPrediction(Examples).ipynb: In this notebook examples of toxicity predic
 df.csv: The DataFrame contains generated features.
 
 Model_1 - Model_9: Trained models for 12 assays.
-
-# Deployment
-http://85.143.223.223:8503/
